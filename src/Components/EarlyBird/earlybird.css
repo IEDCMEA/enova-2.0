@@ -1,11 +1,12 @@
 .bird-container{
     background: aliceblue;
     position: absolute;
+    right: 0;
     left: 0;
     bottom: -25rem;
-    right: 0;
-    border: 4px double solid black;
-    color: rgb(256, 256, 256);
+    
+    
+    
 
 }
 .early-button{

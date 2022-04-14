@@ -10,6 +10,7 @@ function App() {
       <Navbar/>
       <Hero/>
      <EarlyBird countdownTimestampMs={1650392999000}/>
+     
     </div>
   );
 }

@@ -15,10 +15,11 @@ function Hero() {
           </p>
           <div className="lg:mt-0 lg:flex-shrink-0 flex justify-center">
             <div className="mt-12 inline-flex rounded-md shadow ">
-              <button type="button" className="py-2 px-4   text-white w-48 h-14 transition ease-in duration-200 text-center text-lg font-semibold shadow-md   rounded-lg btn btn-gradient btn-glow 
-              " onClick={()=> window.open("https://rzp.io/l/enovaebird", "_blank")}>
-                Register Now
+              <button type="button" className="py-2 px-4  text-black w-48 h-14 transition ease-in duration-200 text-center text-lg font-semibold shadow-md   rounded-lg btn btn-gradient btn-glow 
+              ">
+                <a className='' href="https://rzp.io/l/enovaebird">Register Now</a>
               </button>
+              
             </div>
           </div>
         </div>

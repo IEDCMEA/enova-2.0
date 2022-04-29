@@ -1,6 +1,6 @@
 .hero{
     
-    z-index: -1;
+   
     /* position: absolute;
     bottom: 0; */
     background-color: aliceblue;
@@ -34,4 +34,5 @@
     background-image: linear-gradient(to right, rgb(1 134 218), rgb(182 49 167));
     border: 0;
     color: rgba(256, 256, 256);
+    cursor: pointer;
   }

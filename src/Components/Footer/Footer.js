@@ -10,7 +10,7 @@ function Footer() {
 			<li>Workshops</li>
 			<li>Speakers</li>
 			<li>Contact</li>
-			<li> <a href="https://iedcmea.org/"> About</a></li>
+			<li> <a href="https://rzp.io/l/enovaebird"> About</a></li>
 		</ul>
 		<div className="flex flex-col justify-center pt-6 lg:pt-0">
 			<div className="flex justify-center space-x-4">

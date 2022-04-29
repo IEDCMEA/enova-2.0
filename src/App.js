@@ -1,16 +1,13 @@
 import './App.css';
-
-import Hero from './Components/Hero/Hero';
-import Navbar from './Components/Navbar/Navbar';
+import Enova from './Pages/Enova/Enova';
 
 function App() {
  
   return (
     <div className="App">
-      <Navbar/>
-      <Hero/>
+      
      {/* <EarlyBird countdownTimestampMs={1650392999000}/> */}
-     
+     <Enova/>
      
     </div>
   );

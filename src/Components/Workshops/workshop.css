@@ -1,0 +1,37 @@
+.workshop-container{
+    background: aliceblue;
+}
+.wkshp-heading{
+    background: linear-gradient(to right, #304ccb, #d63a7b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.l-more{
+    background-color: rgba(111, 76, 255, 0.15);
+    border: 1px solid rgba(111, 76, 255, 0.25);
+    color: rgba(256, 256, 256, 0.8);
+}
+.w1{
+    background: url(https://i.ibb.co/DGwhTTK/w1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+}
+.w2{
+    background: url(https://i.ibb.co/rfL0psK/w2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+}
+.w3{
+    background: url(https://i.ibb.co/QQPYzdG/w3.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+}
+.w4{
+    background: url(https://i.ibb.co/pKzPxnb/w4.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+}

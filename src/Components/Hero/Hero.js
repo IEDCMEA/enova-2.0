@@ -4,7 +4,7 @@ import './Hero.css'
 function Hero() {
   return (
     <div className=" overflow-hidden dark:top-0 relative lg:flex lg:items-center hero">
-        <div className="w-full py-12 px-4 mt-28 md:mt-4 sm:px-6 lg:py-16 lg:px-8 z-20 hero-content">
+        <div className="w-full py-12 px-4  md:mt-4 sm:px-6 lg:py-16 lg:px-8 z-20 hero-content">
           <h2 className="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
             <span className="block title text-glow font-righteous font-black text-4xl lg:text-6xl text-center">
               ENOVA 2.0 is here

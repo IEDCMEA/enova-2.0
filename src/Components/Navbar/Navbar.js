@@ -16,15 +16,12 @@ function Navbar() {
 
               </Link>
             </li>
-            <li>
-              <a
-                href="/"
-                aria-label="Our product"
-                title="Our product"
-                className="font-medium tracking-wide text-gray-600 transition-colors duration-200 hover:text-teal-accent-400"
-              >
+            <li className="font-medium tracking-wide text-gray-600 transition-colors duration-200 hover:text-teal-accent-400">
+              <Link to="speakers" spy={true} smooth={true}>
+
                 Speakers
-              </a>
+
+              </Link>
             </li>
 
           </ul>
@@ -100,7 +97,7 @@ function Navbar() {
               </svg>
             </button>
             {isMenuOpen && (
-              <div className="absolute top-0 left-0 w-full">
+              <div className="absolute top-0 left-0 w-full mob-navlist" >
                 <div className="p-5 bg-white border rounded shadow-sm">
                   <div className="flex items-center justify-between mb-4">
                     <div>
@@ -158,17 +155,14 @@ function Navbar() {
                         </Link>
 
                       </li>
-                      <li>
-                        <a
-                          href="/"
-                          aria-label="Product pricing"
-                          title="Product pricing"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                        >
+                      <li className="font-medium tracking-wide text-gray-600 transition-colors duration-200 hover:text-teal-accent-400">
+                        <Link to="speakers" spy={true} smooth={true}>
+
                           Speakers
-                        </a>
+
+                        </Link>
                       </li>
-                      <li>
+                      <li className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
                         <a
                           href="/"
                           aria-label="About us"

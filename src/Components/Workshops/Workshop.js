@@ -4,7 +4,7 @@ import './workshop.css'
 function Workshop() {
   return (
     
-    <section className="px-4 md:px-28 pb-4 md:py-24 mx-auto  workshop-container" id="workshop">
+    <section className="px-4 md:px-28 pt-12 pb-4 md:py-24 mx-auto  workshop-container" id="workshop">
         <h1 className='mb-4 text-4xl font-extrabold tracking-tight md:text-center text-center text-black md:leading-tight sm:text-left md:text-6xl font-righteous wkshp-heading'>Workshops</h1>
     <div className="grid items-center grid-cols-1  md:my-24 mb-24 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
       <div>

@@ -1,22 +1,23 @@
 import React from 'react'
+import './speaker.css'
 
 function Speaker() {
   return (
     <div className="p-4 " id="speakers" style={{background:"aliceblue"}}>
-        <p className="text-center text-3xl font-bold text-gray-800">
+        <p className="text-center font-righteous md:text-6xl text-4xl font-bold text-gray-800 spk-heading">
           Speakers
         </p>
         <p className="text-center mb-32 text-xl font-normal text-gray-500">
           Meet our speakers
         </p>
         <div className="flex items-center space-y-24 md:space-y-0 flex-col md:flex-row justify evenly justify-center md:flex-wrap">
-          <div className="p-4 relative">
+          <div className="p-4 relative ">
             <div className="text-center mb-4 absolute -top-16 right-1/2 transform translate-x-1/2">
               <a href="#" className="block relative">
                 <img alt="profil" src="https://i.ibb.co/27JfdXn/fair1-compressed.jpg" className="mx-auto object-cover rounded-lg h-40 w-40 " />
               </a>
             </div>
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow px-8 py-4 pt-24">
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow px-8 py-4 pt-24 sp1">
               <div className="text-center">
                 <p className="text-2xl text-gray-800 dark:text-white">
                   Fairoos Mohammed
@@ -37,7 +38,7 @@ function Speaker() {
                 <img alt="profil" src="https://i.ibb.co/ZgCh1NL/bas1-compressed.jpg" className="mx-auto object-cover rounded-lg h-40 w-40 " />
               </a>
             </div>
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow px-8 py-4 pt-24">
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow px-8 py-4 pt-24 sp2">
               <div className="text-center">
                 <p className="text-2xl text-gray-800 dark:text-white">
                   Basim
@@ -73,48 +74,48 @@ function Speaker() {
               
             </div>
           </div>
-          {/* <div className="p-4 relative">
+          <div className="p-4 relative" style={{marginTop: "6rem"}}>
             <div className="text-center mb-4 absolute -top-16 right-1/2 transform translate-x-1/2">
               <a href="#" className="block relative">
-                <img alt="profil" src="https://images.unsplash.com/photo-1595784279873-62b38b5e7cd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" className="mx-auto object-cover rounded-lg h-40 w-40 " />
+                <img alt="profil" src="https://i.ibb.co/7b712QK/4-1-compressed.jpg" className="mx-auto object-cover rounded-lg h-40 w-40 " />
               </a>
             </div>
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow px-8 py-4 pt-24">
               <div className="text-center">
                 <p className="text-2xl text-gray-800 dark:text-white">
-                  Patrick Sebastien
+                  Rahul Shah
                 </p>
                 <p className="text-xl text-gray-500 dark:text-gray-200 font-light">
-                  Developpeur
+                  Project Coordinator
                 </p>
                 <p className="text-md text-gray-500 w-60 dark:text-gray-400 mx-auto py-4 font-light">
-                  Patrick Sébastien, born November 14, 1953 in Brive-la-Gaillarde, is an imitator.
+                 Project Coordinator in IEDC, Kerala Startup Mission
                 </p>
               </div>
               
             </div>
-          </div> */}
-          {/* <div className="p-4 relative" style={{marginTop: "6rem"}}>
+          </div>
+          <div className="p-4 relative" style={{marginTop: "6rem"}}>
             <div className="text-center mb-4 absolute -top-16 right-1/2 transform translate-x-1/2">
               <a href="#" className="block relative">
-                <img alt="profil" src="https://images.unsplash.com/photo-1595784279873-62b38b5e7cd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" className="mx-auto object-cover rounded-lg h-40 w-40 " />
+                <img alt="profil" src="https://i.ibb.co/dWfPszX/5-1-compressed.jpg" className="mx-auto object-cover rounded-lg h-40 w-40 " />
               </a>
             </div>
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow px-8 py-4 pt-24">
               <div className="text-center">
                 <p className="text-2xl text-gray-800 dark:text-white">
-                  Patrick Sebastien
+                  Swathiq Rahim
                 </p>
                 <p className="text-xl text-gray-500 dark:text-gray-200 font-light">
-                  Developpeur
+                  Founder & CEO of SaveBox
                 </p>
                 <p className="text-md text-gray-500 w-60 dark:text-gray-400 mx-auto py-4 font-light">
-                  Patrick Sébastien, born November 14, 1953 in Brive-la-Gaillarde, is an imitator.
+                    He is the founder and chief executive officer of SaveBox.in. He introduced new ways of exploring the customer requirements in business world by breaking the conventional methods. 
                 </p>
               </div>
               
             </div>
-          </div> */}
+          </div>
           
           
         </div>

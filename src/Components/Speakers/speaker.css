@@ -1,0 +1,5 @@
+.spk-heading{
+    background: linear-gradient(to right, #1bc8bc, #df8600);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
